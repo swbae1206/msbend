@@ -148,19 +148,19 @@ nav .navigation ul li a.lang:hover {
 .swiper .swiper-wrapper .slide1 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-    url("images/home-back-01.jpg");
+    url("../images/home-back-01.jpg");
 }
 
 .swiper .swiper-wrapper .slide2 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-    url("images/home-back-02.jpg");
+    url("../images/home-back-02.jpg");
 }
 
 .swiper .swiper-wrapper .slide3 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-    url("images/home-back-03.jpg");
+    url("../images/home-back-03.jpg");
 }
 
 .swiper-slide h3 {
@@ -284,7 +284,7 @@ nav .navigation ul li a.lang:hover {
   padding: 80px 0;
   background-image:
     linear-gradient(rgba(99, 112, 168, 0.5), rgba(82, 91, 233, 0.5)),
-    url("images/home-back02.jpg");
+    url("../images/home-back02.jpg");
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -497,7 +497,7 @@ footer .copyright p {
 #about-home {
   background-image:
     linear-gradient(rgba(9, 5, 54, 0.2), rgba(5, 4, 46, 0.5)),
-    url("images/about-back.jpg");
+    url("../images/about-back.jpg");
   width: 100%;
   height: 45vh;
   background-repeat: no-repeat;
@@ -681,7 +681,7 @@ footer .copyright p {
 #products-home {
   background-image:
     linear-gradient(rgba(9, 5, 54, 0.2), rgba(5, 4, 46, 0.7)),
-    url("images/products-back.jpg");
+    url("../images/products-back.jpg");
   width: 100%;
   height: 45vh;
   background-repeat: no-repeat;
@@ -865,7 +865,7 @@ footer .copyright p {
 #equipment-home {
   background-image:
     linear-gradient(rgba(9, 5, 54, 0.2), rgba(5, 4, 46, 0.5)),
-    url("images/home-back-03.jpg");
+    url("../images/home-back-03.jpg");
   width: 100%;
   height: 45vh;
   background-repeat: no-repeat;
@@ -993,7 +993,7 @@ footer .copyright p {
 #contact-home {
   background-image:
     linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.6)),
-    url("images/contact-back.jpg");
+    url("../images/contact-back.jpg");
   width: 100%;
   height: 45vh;
   background-repeat: no-repeat;
