@@ -663,6 +663,7 @@ footer .copyright p {
   border: 1px solid #ddd;
   border-radius: 8px;
   color: black;
+  font-size: 14px;
 }
 #patent .patent-container .patent-img a:hover {
   background-color: #ddd;
@@ -670,6 +671,7 @@ footer .copyright p {
 
 #patent .patent-container .patent-img a i {
   color: red;
+  margin-right: 5px;
 }
 
 /***************************************/
