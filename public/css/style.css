@@ -753,13 +753,18 @@ footer .copyright p {
 }
 
 .products-section .products-container .title {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  place-items: start;
   padding-bottom: 5px;
   border-bottom: 5px solid #ddd;
   margin-top: 50px;
 }
 
 .products-section .products-container .title i {
+  font-size: 24px;
   color: blueviolet;
+  margin-top: 7px;
 }
 
 .products-container .contents-items {
@@ -781,7 +786,8 @@ footer .copyright p {
 }
 
 .products-container .contents-item .item-name {
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
 .products-container .contents-item .download {
   display: flex;
