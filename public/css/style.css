@@ -506,6 +506,7 @@ footer .copyright p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 65px;
 }
 
 #about-home h2 {
@@ -692,6 +693,7 @@ footer .copyright p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 65px;
 }
 
 #products-home h2 {
@@ -882,7 +884,7 @@ footer .copyright p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  margin-top: 65px;
 }
 
 #equipment-home h2 {
@@ -916,6 +918,7 @@ footer .copyright p {
 
 .process-01 {
   display: grid;
+  gap: 15px;
 }
 
 .process-01 .image-container {
@@ -1010,7 +1013,7 @@ footer .copyright p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  margin-top: 65px;
 }
 
 #contact-home h2 {
@@ -1461,8 +1464,13 @@ footer .copyright p {
   /****** ABOUT       *********/
   /*******************************/
 
+  #about .history-base {
+    gap: 50px;
+  }
+
   #about .history-box {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   #patent .patent-container {
