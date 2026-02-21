@@ -1,4 +1,4 @@
-const sendmail = require("./routes/sendmail");
+const { sendmail, checkSendMail } = require("./routes/sendmail");
 const express = require("express");
 const app = express();
 // const mongoose = require("mongoose");
@@ -28,6 +28,7 @@ app.use("/api/sendmail", sendmail);
 const port = process.env.PORT || 3500;
 
 app.listen(port, () => {
+  setInterval(checkSendMail,  20 * 24 * 60 * 60 * 1000)
   console.log(`Server running on port ${port}...`);
 });
 

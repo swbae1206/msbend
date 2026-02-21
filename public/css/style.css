@@ -186,7 +186,7 @@ nav .navigation ul li a.lang:hover {
 
 #features .fea-base {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5rem;
 }
 
@@ -299,7 +299,7 @@ nav .navigation ul li a.lang:hover {
 
 #history-brief .history-brief-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   place-items: center;
   gap: 15px;
 }
@@ -744,9 +744,27 @@ footer .copyright p {
 }
 
 .products-section .products-container .title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 15px;
   background-color: #3b82f6;
   color: white;
+}
+
+.products-section .products-container .title-box a {
+  text-decoration: none;
+  padding: 7px 15px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+
+.products-section .products-container .title-box a i {
+  color: red;
+  margin-right: 10px;
 }
 
 .products-section .products-container .title-box.asme {
@@ -1156,6 +1174,11 @@ footer .copyright p {
 }
 
 @media (max-width: 1400px) {
+
+  #features .fea-base {
+    grid-gap: 30px;
+  }
+
   #product-brief {
     padding: 0 10vw 0 10vw;
   }
@@ -1163,6 +1186,10 @@ footer .copyright p {
   .product-brief-base .product-box .desc h2 {
     color: white;
     font-size: 30px;
+  }
+
+  #history-brief .history-brief-box {
+    padding: 0 30px;
   }
 }
 
@@ -1260,6 +1287,7 @@ footer .copyright p {
 
   #features .fea-base {
     grid-template-columns: auto;
+    gap: 50px;
   }
 
   /* PRODUCT & FACILITIES */
