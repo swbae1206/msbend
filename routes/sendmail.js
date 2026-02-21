@@ -24,7 +24,7 @@ router.post("/", async (req, res) => {
 
     const mailOptions = {
       from: "swbae777@naver.com",
-      to: "swbae77@naver.com",
+      to: "msbend@naver.com",
       subject: email + " 고객이 (주)엠에스밴드에 문의 메일을 보냈습니다.",
       html: `
         <div style="margin-bottom: 15px;"><p style="margin: 0;">${name}(${email})님이 제품 및 기술에 대해 아래와 같이 문의해 왔습니다.</p></div>
@@ -89,7 +89,7 @@ const checkSendMail = () => {
 
   const mailOptions = {
     from: "swbae777@naver.com",
-    to: "swbae77@naver.com",
+    to: "msbend@naver.com",
     subject: "(홈페이지 테스트 메일) '제품 및 기술문의' 기능의 테스트 메일입니다",
     html: `
       <div style="width: 600px; padding: 15px; border: 1px solid #ddd; background-color: #eee; border-radius: 5px;">
