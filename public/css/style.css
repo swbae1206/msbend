@@ -576,7 +576,7 @@ footer .copyright p {
 
 #history .history-base {
   display: grid;
-  gap: 30px;
+  gap: 50px;
 }
 
 #history .history-box {
@@ -602,7 +602,7 @@ footer .copyright p {
 }
 
 #history .history-box .contents-base {
-  padding: 10px 20px;
+  padding: 30px 25px;
   background-color: rgb(245, 245, 245);
   /* border: 1px solid rgba(220, 219, 219, 0.716); */
 }
