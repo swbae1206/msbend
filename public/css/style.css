@@ -1173,7 +1173,7 @@ footer .copyright p {
   height: 100%;
 }
 
-/* @media (max-width: 1400px) {
+@media (max-width: 1400px) {
 
   #features .fea-base {
     grid-gap: 30px;
@@ -1191,9 +1191,9 @@ footer .copyright p {
   #history-brief .history-brief-box {
     padding: 0 30px;
   }
-} */
+}
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   /* NAV */
 
   nav .navigation ul {
@@ -1258,11 +1258,6 @@ footer .copyright p {
     color: white;
     font-size: 24px;
   }
-
-  /* HOME */
-  /* #about-section {
-      width: 800px;
-    } */
 
   /* FOOTER */
 
@@ -1564,4 +1559,4 @@ footer .copyright p {
   #contact .form {
     padding: 15px;
   }
-} */
+} 
