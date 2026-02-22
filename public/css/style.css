@@ -1173,7 +1173,7 @@ footer .copyright p {
   height: 100%;
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
 
   #features .fea-base {
     grid-gap: 30px;
@@ -1191,7 +1191,7 @@ footer .copyright p {
   #history-brief .history-brief-box {
     padding: 0 30px;
   }
-}
+} */
 
 @media (max-width: 1200px) {
   /* NAV */
@@ -1435,6 +1435,7 @@ footer .copyright p {
 }
 
 @media (max-width: 575px) {
+
   /*******************************/
   /****** HOME         *********/
   /*******************************/
