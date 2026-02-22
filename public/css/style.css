@@ -1367,6 +1367,10 @@ footer .copyright p {
     grid-template-columns: 1fr 1fr;
   }
 
+  #features .fea-base {
+    grid-template-columns: 1fr;
+  }
+
   /*******************************/
   /****** ABOUT          *********/
   /*******************************/
