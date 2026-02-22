@@ -1281,7 +1281,7 @@ footer .copyright p {
   /* FEATURES */
 
   #features .fea-base {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
   }
 
